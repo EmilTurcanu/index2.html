@@ -1,45 +1,157 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Contact | Interactions</title>
-        <link rel="stylesheet" href="style (2).css">
-        <link rel="stylesheep" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    </head>
-    <body>
-        <nav class="contacts">
-            <h2>My Contants</h2>
-            <ul>
-                <li id="contacts-1">
-                    <span class="ascuns">
-                        <div>
-                            <a href="#" class="kick"></a>
-                            <a href="#" class="a-vorbi"></a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0">
+    <title>Chat App Layout</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="app">
+            <header></header>
+            <main>
+                <ul class="contacts">
+                    
+                        <li class="contacts__profile status--online">
+                            <div class="profile__slide">
+                            <div class="profile__avatar">
+                                <img src="avataaars (4).png" alt="Marry Inov">
+                            </div>
+                            <div class="message__content">
+                                <h2>Marry Inov</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <span class="message_status status--online"><i class="fa-solid fa-check-double"></i><br/>09:30</span>
+                            </div>
+                            <div class="profile__actions">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </li>
+                    
+                    <li class="contacts__profile status--ofline--5min">
+                        <div class="profile__avatar">
+                            <img src="avataaars (5).png" alt="Martin Kuerbs">
                         </div>
-                    </span>
-                    <span class="inceput">
-                        <a href="#" class="trecere"><i class="fa-solid fa-ellipsis-vertical"></i></a>
-                    </span>
-                    <figure class="avatar">
-                        <img src="avataaar (6).svg" alt="Jane Doe">
-                        <span class="status on"></span>
-                    </figure>
-                    <span class="info">
-                        <span>Jane Doe</span>
-                        <span>Hi, how are you?</span>
-                    </span>
-                    <span class="action">
-                        <a href="#contect-1" class="add">+</a>
-                    </span>
-                    <span class="add-details">
-                        <div>
-                            <a href="#">friend</a>
-                            <a href="#">follow</a>
+                        <div class="message__content">
+                            <h2>Martin Kuerbs</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
                         </div>
-                    </span>
-                </li>
-            </ul>
-        </nav>
-    </body>
+                        <span class="message_status status--ofline--vazut"><i class="fa-solid fa-check-double"></i><br/>12:00</span>
+                    </li>
+
+                    <li class="contacts__profile status--online">
+                        <div class="profile__avatar">
+                            <img src="avataaars (6).png" alt="Peter Shckiop">
+                        </div>
+                        <div class="message__content">
+                            <h2>Peter Shckiop</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--online"><i class="fa-solid fa-check-double"></i><br/>11:30</span>
+                    </li>
+                    <li class="contacts__profile status--ofline--10min">
+                        <div class="profile__avatar">
+                            <img src="avataaars (4).png" alt="Marry Inov">
+                        </div>
+                        <div class="message__content">
+                            <h2>Marry Inov</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--ofline--nevazut"><i class="fa-solid fa-check"></i><br />09:30</span>
+                    </li>
+                    
+                    <li class="contacts__profile status--online">
+                        <div class="profile__avatar">
+                            <img src="avataaars (5).png" alt="Martin Kuerbs">
+                        </div>
+                        <div class="message__content">
+                            <h2>Martin Kuerbs</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--online"><i class="fa-solid fa-check-double"></i><br />12:00</span>
+                    </li>
+                    
+                    <li class="contacts__profile status--ofline--15min">
+                        <div class="profile__avatar">
+                            <img src="avataaars (6).png" alt="Peter Shckiop">
+                        </div>
+                        <div class="message__content">
+                            <h2>Peter Shckiop</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--ofline--vazut"><i class="fa-solid fa-check-double"></i><br />11:30</span>
+                    </li>
+                    <li class="contacts__profile status--online">
+                        <div class="profile__avatar">
+                            <img src="avataaars (4).png" alt="Marry Inov">
+                        </div>
+                        <div class="message__content">
+                            <h2>Marry Inov</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--online"><i class="fa-solid fa-check-double"></i><br />09:30</span>
+                    </li>
+                    
+                    <li class="contacts__profile status--ofline--5min">
+                        <div class="profile__avatar">
+                            <img src="avataaars (5).png" alt="Martin Kuerbs">
+                        </div>
+                        <div class="message__content">
+                            <h2>Martin Kuerbs</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--ofline--nevazut"><i class="fa-solid fa-check"></i><br />12:00</span>
+                    </li>
+                    
+                    <li class="contacts__profile status--online">
+                        <div class="profile__avatar">
+                            <img src="avataaars (6).png" alt="Peter Shckiop">
+                        </div>
+                        <div class="message__content">
+                            <h2>Peter Shckiop</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--online"><i class="fa-solid fa-check-double"></i><br />11:30</span>
+                    </li>
+                    <li class="contacts__profile status--ofline--10min">
+                        <div class="profile__avatar">
+                            <img src="avataaars (4).png" alt="Marry Inov">
+                        </div>
+                        <div class="message__content">
+                            <h2>Marry Inov</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--ofline--vazut"><i class="fa-solid fa-check-double"></i><br />09:30</span>
+                    </li>
+                    
+                    <li class="contacts__profile status--online">
+                        <div class="profile__avatar">
+                            <img src="avataaars (5).png" alt="Martin Kuerbs">
+                        </div>
+                        <div class="message__content">
+                            <h2>Martin Kuerbs</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--online"><i class="fa-solid fa-check-double"></i><br />12:00</span>
+                    </li>
+                    
+                    <li class="contacts__profile status--ofline--15min">
+                        <div class="profile__avatar">
+                            <img src="avataaars (6).png" alt="Peter Shckiop">
+                        </div>
+                        <div class="message__content">
+                            <h2>Peter Shckiop</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <span class="message_status status--ofline--nevazut"><i class="fa-solid fa-check"></i><br />11:30</span>
+                    </li>
+                </ul>
+            </main>
+            <footer></footer>
+        </section>
+    </div>
+</body>
 </html>
-<!--Se poate de pus figure in loc de span el tot este un block in care se contine text-->
+<!--Ati ales ul pentruca este o lista fara ordine-->
